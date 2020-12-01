@@ -1,23 +1,30 @@
-*{box-sizing: border-box;
-
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-  
-  img{
-    max-width: 100%;
-    height: auto;
-    
-
+body {
+  background-image: url(../img/patron.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
+
+img {
+  max-width: 100%;
+  height: auto; 
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: center;
-  padding: 150px;
-  padding-bottom: 12%;
-  width: 100%;
-  height: auto;  
+  padding: 150px 150px 0px 150px;
+
 }
 
 .grid-item {
@@ -26,15 +33,9 @@
   text-align: center;
   margin: 0%;
   padding: 0%;
-  }
 
-body{
-  font-family: 'Montserrat', sans-serif;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  align-items: center;
 }
+
 #cont1{
   background-image: url(../img/login.jpg);
   background-size: 100%;
@@ -44,6 +45,7 @@ body{
   font-weight: 800;
 
 }
+
 #cont2{
   background-color: white;
   background-size: 100%;
@@ -84,6 +86,7 @@ input[type=text] {
   outline: none;
   
 }
+
 input[type=password] {
   width: 80%;
   padding: 10px 18px;
@@ -108,14 +111,12 @@ input[type=password] {
   cursor: pointer;
   width: 30%;
   
-  
 }
 ::-webkit-input-placeholder { color: white; 
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 
 } 
-
 
 p{
   position: relative;
