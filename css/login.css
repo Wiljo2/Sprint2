@@ -1,22 +1,12 @@
+*{box-sizing: border-box;
 
-/*.grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    padding: 0px;
-    margin: 0px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
-    text-align: center;
-    margin:0px auto;
-    padding-right: 2px;
-    height: 100%;
-  }*/
+}
+
+  
   img{
     max-width: 100%;
     height: auto;
-
+    
 
 }
 .grid-container {
@@ -26,6 +16,8 @@
   align-items: center;
   padding: 150px;
   padding-bottom: 12%;
+  width: 100%;
+  height: auto;  
 }
 
 .grid-item {
@@ -37,6 +29,7 @@
   }
 
 body{
+  font-family: 'Montserrat', sans-serif;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -48,12 +41,15 @@ body{
   height: 100%;
   width: 800px;
   height: 470px;
+  font-weight: 800;
+
 }
 #cont2{
   background-color: white;
   background-size: 100%;
   height: 470px;
   width: 320px;
+
 }
 
 #contrecuperar{
@@ -85,6 +81,7 @@ input[type=text] {
   background-color: #b97f52;
   color: white;
   border-radius: 20px;
+  outline: none;
   
 }
 input[type=password] {
@@ -96,6 +93,7 @@ input[type=password] {
   background-color: #b97f52;
   color: white;
   border-radius: 20px;
+  outline: none;
   
 }
 #buttonrecuperar {
@@ -113,7 +111,8 @@ input[type=password] {
   
 }
 ::-webkit-input-placeholder { color: white; 
-font-family: Montserrat SemiBold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 
 } 
 
@@ -121,16 +120,19 @@ font-family: Montserrat SemiBold;
 p{
   position: relative;
   right: 90px;
-  top: 0px;
-  font-family: Montserrat ExtraBold;
+  top: 0px;  
   font-size: 110%;
+  font-weight: 800;
+  
 }
 
 a{
   color: #372d28;
   text-decoration: none;
   font-size: 60%;
-  font-family: Montserrat ExtraBold;
+  font-weight: 800;
+  
+  
   
 }
 .button {
@@ -145,5 +147,6 @@ a{
   cursor: pointer;
   width: 80%;
   border-radius: 20px;
-  font-family: Montserrat SemiBold;
+  font-weight: 600;
+  
 }
