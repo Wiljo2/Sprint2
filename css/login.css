@@ -22,8 +22,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-image: url(../img/patron.jpg);
-  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   padding: 150px;
@@ -39,7 +37,7 @@
   }
 
 body{
-  background-image: url(../img/patron.jpg);
+  background-size: cover;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -123,8 +121,9 @@ font-family: Montserrat SemiBold;
 p{
   position: relative;
   right: 90px;
-  top: 20px;
+  top: 0px;
   font-family: Montserrat ExtraBold;
+  font-size: 110%;
 }
 
 a{
@@ -138,12 +137,13 @@ a{
   background-color: #b97f52; /* Green */
   border: none;
   color: white;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
-  margin: 4px 2px;
+  margin: 2px 2px;
   cursor: pointer;
   width: 80%;
+  border-radius: 20px;
   font-family: Montserrat SemiBold;
 }
