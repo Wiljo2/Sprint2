@@ -89,6 +89,17 @@
     border-radius: 20px;
     
   }
+  input[type=password] {
+    width: 80%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #b97f52;
+    color: white;
+    border-radius: 20px;
+    
+  }
   #buttonrecuperar {
     background-color: #b97f52; /* Green */
     border: none;
