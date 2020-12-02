@@ -94,10 +94,6 @@ body{
   background-size: cover;
   height: 200px;
 }
-#div1{
-  background-image: url(../img/Jugohit.png);
-  background-size: 100%;
-}
 .descript{
   background-image: url(../img/descript.png);
   background-size: 100%;
