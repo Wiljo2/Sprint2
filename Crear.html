@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperar</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/validausuario.js"></script>
 </head>
 <body id ="bodyrecuperar">
     <div id="contrecuperar" >
@@ -12,13 +13,15 @@
             <br>
             <br>
             <h1>Creación de Usuarios</h1>
-            <form>
-            <input type="text" placeholder = "Correo electronico" name ="correo"> <br>
-            <input type="text" placeholder = "Nombre" name ="correo"> <br>
-            <input type="password" placeholder = "Contraseña" name ="correo"> <br>
+            <form name="formulario" method="post" action="" onSubmit="return validar_formulario();">
+            <input type="text"name="email" placeholder = "Correo electronico" > <br>
+            <input type="text" placeholder = "Nombre" name ="usuario"> <br>
+            <input input type="password" name="password" placeholder = "Contraseña" > <br>
+            <input id="buttonrecuperar" type="submit" class ="button" value="Crear"><br>
             </form>
+            <a href="login.html"><input id="buttonrecuperar" type="button" class ="button" value="Volver"></a>
             <br>
-            <a href="login.html"><input id="buttonrecuperar" type="button" class ="button" value="Crear"></a> <br>
+            
             <h2>Se le enviará al correo del cliente su respectivo usuario y contraseña </h2>
         </div>
     </div>
