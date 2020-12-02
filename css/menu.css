@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+body{
+  background-image: url(../img/patron.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+img{
+    min-width: 100%;
+    height: auto;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 1150px 150px 150px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+#cont2{
+  background-color: white;  
+  height: 300px;
+  width: 400px;
+  text-align: center;
+
+}
+
+
+input {
+  width: 80%;
+  padding: 10px 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #b97f52;
+  color: white;
+  border-radius: 20px;
+  outline: none;  
+}
+
+
+::-webkit-input-placeholder { color: white; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+} 
+
+p{
+  position: relative;
+  right: 0px;
+  top: -5px;  
+  font-size: 110%;
+  font-weight: 800;
+  text-align: center;
+  
+}
+.button {
+  background-color: #b97f52; /* Green */
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 20px;
+  font-weight: 600;
+  
+}
