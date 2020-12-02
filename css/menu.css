@@ -5,7 +5,7 @@
 } 
 
 body{
-  background-image: url(../img/patron.jpg);
+  background-image: url(../img/menu.jpg);
   font-family: 'Montserrat', sans-serif;
   background-size: cover;
   align-items: center;
@@ -20,7 +20,7 @@ body{
 }
 .header{
   height: 150px;
-  background-image: url(../img/patron.jpg);
+  background-image: url(../img/header.jpg);
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -30,8 +30,9 @@ body{
 }
 #menu{
   position: relative;
-  top: 20%;
-  font-size: 40px;
+  top: 10%;
+  color: white;
+  font-size: 45px;
   font-weight: 800;
   text-align: left;
   
@@ -42,7 +43,7 @@ body{
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  background-color: #978f89;
+  background-color: #ffffff;
   color: rgb(14, 13, 13);
   border-radius: 20px;
   outline: none;  
@@ -51,12 +52,12 @@ body{
 
 }
 .elementos{
-  height: 100px;
+  height: 50px;
   background-size: cover;
   background-position: center;
-  background-color:  #be9271;
+  background-color:  #372d28;
   text-align:right;
-  padding: 20px;
+  padding: 0px;
 }
 .buttonelementos{
   width: 20%;
@@ -66,13 +67,16 @@ body{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  padding: 20px;
+  padding: 10px;
   border: none;
-  background-color: #b97f52;
+  background-color:#856454;
   color: white;
   border-radius: 20px;
   outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
+
 
 .grid-container {
   width: 100%;
