@@ -12,79 +12,95 @@ body{
   width: 100%;
   height: auto;
 }
-
-img{
-    min-width: 100%;
-    height: auto;
-
+.container{
+  width: 95%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px gray;
+  background: white;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 1150px 150px 150px;
+.header{
+  height: 150px;
+  background-image: url(../img/patron.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  opacity: .9;
+  text-align:right;
+  padding: 20px;
 }
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
-  text-align: center;
-  margin: 0%;
-  padding: 0%;
-
+#menu{
+  position: relative;
+  top: 20%;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+  
 }
-
-#cont2{
-  background-color: white;  
-  height: 300px;
-  width: 400px;
-  text-align: center;
-
-}
-
-
-input {
-  width: 80%;
+.buscar{
+  width: 20%;
   padding: 10px 18px;
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
+  background-color: #978f89;
+  color: rgb(14, 13, 13);
+  border-radius: 20px;
+  outline: none;  
+  left: 20px; 
+  text-align: left;
+
+}
+.elementos{
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-color:  #be9271;
+  text-align:right;
+  padding: 20px;
+}
+.buttonelementos{
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
   background-color: #b97f52;
   color: white;
   border-radius: 20px;
-  outline: none;  
+  outline: none;
 }
 
+.grid-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: #e6e9eb;
+  padding: 10px;
+  opacity: .8;
+}
 
-::-webkit-input-placeholder { color: white; 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-
-} 
-
-p{
-  position: relative;
-  right: 0px;
-  top: -5px;  
-  font-size: 110%;
-  font-weight: 800;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
-  
+  background-size: cover;
+  height: 200px;
 }
-.button {
-  background-color: #b97f52; /* Green */
-  border: none;
-  color: white;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  margin: 2px 2px;
-  cursor: pointer;
-  width: 25%;
-  border-radius: 20px;
-  font-weight: 600;
-  
+#div1{
+  background-image: url(../img/Jugohit.png);
+  background-size: 100%;
 }
+.descript{
+  background-image: url(../img/descript.png);
+  background-size: 100%;
+}
+
+  
