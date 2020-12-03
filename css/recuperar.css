@@ -11,6 +11,7 @@
     align-items: center;
     width: 100%;
     height: auto;
+   
   }
   
   img {
@@ -23,7 +24,7 @@
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 90px;
   
   }
   
@@ -56,13 +57,14 @@
   
   #contrecuperar{
   width: 80%;
-  background-image: url(../img/login.jpg);
+  background-image: url(../img/recuperar.jpg);
   background-size: cover;
-     margin: 80px auto;
-   padding: 40px;
-   box-shadow: 0px 0px 10px gray;
-   background-position: center;
-     
+  margin: 55px auto;
+  padding: 40px;
+  box-shadow: 0px 0px 10px gray;
+  background-position: center;
+  
+  
   }
   #recuperar{
     min-height: 400px;
@@ -78,6 +80,7 @@
   input[type=text] {
     width: 60%;
     padding: 10px 18px;
+    margin: 0px;   
  
     box-sizing: border-box;
     border: none;
@@ -112,8 +115,7 @@
     margin: -8px 0px;
     cursor: pointer;
     width: 30%;
-    background-color: #372d28;
-   
+    background-color: #372d28;   
     
   }
   ::-webkit-input-placeholder { color: white; 
@@ -136,7 +138,7 @@
     color: #372d28;
     text-decoration: none;
     font-size: 90%;
-    font-weight: 800;
+    font-weight: 700;
     
     
     
