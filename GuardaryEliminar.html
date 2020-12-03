@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producto</title>
+    <link rel="stylesheet" href="./css/guardaryeliminar.css">
 </head>
 <body>
-    <h1>Menu principal </h1>
+    <div class="container">
 
-    <div id = "botones">
-        <input type="button" value = "Guardar"> <input type="button" value="Eliminar"> <input type="button" value = "Cerrar sesión">
+    <div class="header">
+        <br>
+        <p id="producto">Producto</p>
+    </div>
+        <div class="elementos">
+            <a href="menu.html"><button class="buttonelementos"> Guardar </button></a> 
+            <a href="menu.html"><button class="buttonelementos"> Eliminar</button></a>
+            <a href="menu.html"><button class="buttonelementos"> Volver</button></a>
     </div>
 
-    <div id="producto">
-        <img src="./img/Jugohit.png" alt="jugito hit">
-        <br>
-        <label for="nombre">
+    <div class="grid-container">
+        <div class="grid-item" id="div1"> <img src="./img/descarga (1).jpg" alt=""> </div>
+       
+        <label>
             Nombre: 
             <br>
-            <input type="text"   placeholder="Jugo hit Mango">
+            <input type="text"   value="Jugo hit Mango">
         </label>
-        <br>
-        <label for="Cantidad">
+       
+        <label>
             Cantidad:
             <br>
-            <input type="text"  placeholder="100">
+            <input type="text" name="Cantidad" value="100">
         </label>
     </div>
-
+    </div>
 
 
 </body>
