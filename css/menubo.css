@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } 
+  body{
+    background-image: url(../img/menu.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .elcontenedor{
+    width: 95%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    background: white;
+  }
+  .elheader{
+    height: 150px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    opacity: .9;
+    text-align:right;
+    padding: 20px;
+    
+  } 
+  #elmenu{
+    position: relative;
+    top: 10%;
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+    
+  }
+  .elbuscar{
+    width: 20%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(14, 13, 13);
+    border-radius: 20px;
+    outline: none;  
+    left: 20px; 
+    text-align: left;
+  
+  }
+  
+  .elementos{
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-color:  #372d28;
+    text-align:right;
+    padding: 0px;
+  }
+  .buttonelementos{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color:#856454;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+   
+  }
+  .elementos{
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-color:  #372d28;
+    text-align:right;
+    padding: 0px;
+  }
+  .buttonelementos{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color:#856454;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+.card-body{
+  text-align: center;
+ 
+}
+ .btn-outline-secondary{
+  align-items: flex-end;
+ }
+
+  
