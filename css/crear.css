@@ -55,24 +55,26 @@
   }
   
   #contrecuperar{
-  width: 80%;
-  background-image: url(../img/login.jpg);
-  background-size: cover;
-     margin: 80px auto;
-   padding: 40px;
-   box-shadow: 0px 0px 10px gray;
-   background-position: center;
-   
-  }
-  #recuperar{
-    min-height: 400px;
-    width: 100%;
+    width: 80%;
+    background-image: url(../img/crearcontra.jpg);
+    background-size: cover;
+    margin: 55px auto;
+    padding: 40px;
+    box-shadow: 0px 0px 10px gray;
     background-position: center;
-    text-align: center;
-    background:white;
-    opacity: .9;
-  
-  }
+    
+    
+    }
+    #recuperar{
+      min-height: 400px;
+      /*width: 40%;*/
+      background-position: center;
+      text-align: center;
+      background:white;   
+      height: 470px;
+      width: 350px;
+    
+    }
   
   input[type=text] {
     width: 80%;
@@ -99,31 +101,32 @@
     outline: none;
     
     
-  }
-  input[type=submit] {
+  }  
+  input[type=button] {
     width: 80%;
     padding: 10px 18px;
-    margin: 8px 0;
+    margin: 6px 0;
     box-sizing: border-box;
     border: none;
-    background-color: #b97f52;
+    background-color: #372d28;
     color: white;
-    border-radius: 20px;
+    border-radius: 1px;
     outline: none;
     
     
   }
+ 
   #buttonrecuperar {
-    background-color: #b97f52; /* Green */
+    background-color: #372d28; /* Green */
     border: none;
     color: white;
-    padding: 15px;
+    padding: 6px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    margin: 4px 2px;
+    margin: 10px 0;
     cursor: pointer;
-    width: 30%;
+    width: 25%;
     
   }
   ::-webkit-input-placeholder { color: white; 
@@ -132,24 +135,25 @@
   
   } 
   
-  p{
-    position: relative;
+  h1{
+    position: center;
     right: 90px;
     top: 0px;  
-    font-size: 110%;
+    font-size: 200%;
     font-weight: 800;
+    margin: 15px 0;
     
   }
   
-  a{
+  h2{
     color: #372d28;
     text-decoration: none;
-    font-size: 60%;
-    font-weight: 800;
+    font-size: 90%;
+    font-weight: 700;
+    margin: 25px 0;
     
+  } 
     
-    
-  }
   .button {
     background-color: #b97f52; /* Green */
     border: none;
