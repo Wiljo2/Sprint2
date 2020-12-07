@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="js/validausuario.js"></script>
+    <script src="{{ url_for('static', filename='js/validacion.js') }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
@@ -17,13 +17,13 @@
         <div class="grid-item" id="cont2">
             <br>
             <br>
-            <p>Iniciar Sesión<p> 
-            <form>
+            <p>Iniciar Sesión {{ nombre }}<p>
+            <form name ="formulario" method="post" action="{{ url_for('procesar') }}">
             <input type="text" placeholder = "Usuario o Correo electronico" name ="correo"> <br>
-            <input type="password" placeholder = "Contraseña"  name ="correo"> <br>
+            <input type="password" placeholder = "Contraseña"  name ="contraseña"> <br>
             <br>
-            <form>
-            <a href="menubo.html"><input type="button" class ="button" value="Ingresar"></a> <br><br>
+            </form>
+            <a href="{{ url_for('menu') }}"><input type="button" class ="button" value="Ingresar"></a> <br><br>
             <a href="Recuperar.html">¿Olvidaste tu Contraseña?</a>
             <br><br><br>
             
