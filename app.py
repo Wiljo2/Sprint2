@@ -20,6 +20,16 @@ def procesar():
         men = "Ingreso correcto"
         return men
 
+@app.route('/enivarcontraseña',methods=['POST'])
+def enivarcontraseña():
+    if request.method == 'POST':
+        email = request.form['correo']
+        yag = yagmail.SMTP('proyectosprint3@gmail.com', 'qwaszx013654')
+        yag.send(to=email, subject='Recuperacion de Contraseña', contents='Ingrese en el siguiente link para el cambio de su contraseña.<a href="www.google.com">clic aqui</a>')
+        men = "Correo de recuperacion enviado correctamente"
+        return men
+
+
 
 
 @app.route('/menu')
@@ -35,5 +45,10 @@ def crear():
 def crearProducto():
     return render_template('crearproducto.html')
 
+@app.route('/recuperar')
+def recuperar():
+    return render_template('recuperar.html')
+
 if __name__ == '__main__':
     app.run()
+
